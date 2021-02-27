@@ -39,12 +39,19 @@ class IO:
     """ Performs Input and Output tasks """
     @staticmethod
     def input_grab_id():
-        user_id = input("Enter your ID: ").strip()
+        try:
+            float_id = float(input("Enter your ID number: "))
+        except:
+            print("That's not an ID number!")
+        user_id = str(float_id)
         lstCustomer.append(user_id + ",")
         return user_id, lstCustomer
     @staticmethod
     def input_grab_name():
-        user_name = input("Enter your name: ").strip()
+        try:
+            user_name = input("Enter your name: ").strip()
+        except:
+            print("ERROR! Something went wrong, restart and try again")
         lstCustomer.append(user_name)
         return user_name, lstCustomer
 # Presentation ------------------------------------ #
@@ -66,4 +73,4 @@ Processor.save_data_to_file(file_name, lstCustomer)
 print("reading data...")
 print("The data read from file is...")
 Processor.read_data_from_file(file_name)
-input()
+input("Press ENTER to exit")
