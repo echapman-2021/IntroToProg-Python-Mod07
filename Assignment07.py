@@ -1,0 +1,69 @@
+# ------------------------------------------------- #
+# Title: Lab7-1
+# Description: A simple example of storing data in a binary file
+# ChangeLog: (Who, When, What)
+#EChapman, 2.25.2021, opened and created script
+#EChapman, 2.26.2021 completed script
+# ------------------------------------------------- #
+import pickle
+# Data -------------------------------------------- #
+file_name ="C:\_PythonClass\Assignment07\AppData.dat"    #'AppData.dat'
+lstCustomer = []
+list_of_data = []
+import pickle
+# Processing -------------------------------------- #
+class Processor:
+    """  Performs Processing tasks """
+
+    @staticmethod
+    def save_data_to_file(file_name, list_of_data):
+        file = open(file_name, "wb")
+        b = pickle.dump(list_of_data,file)
+        file.close()
+
+    @staticmethod
+    def read_data_from_file(file_name):
+        # TODO: into a new list object and display the contents
+        f  = open(file_name, "rb")
+        freshly_pickled = pickle.load(f)
+        print(freshly_pickled)
+        f.close()
+    @staticmethod
+
+    def add_to_list(lstCustomer):
+        list_of_data.append(lstCustomer)
+        #list_of_data[lstCustomer] = user_id TRY THIS TOO
+        return list_of_data
+#IO---------------------------------------
+class IO:
+    """ Performs Input and Output tasks """
+    @staticmethod
+    def input_grab_id():
+        user_id = input("Enter your ID: ").strip()
+        lstCustomer.append(user_id + ",")
+        return user_id, lstCustomer
+    @staticmethod
+    def input_grab_name():
+        user_name = input("Enter your name: ").strip()
+        lstCustomer.append(user_name)
+        return user_name, lstCustomer
+# Presentation ------------------------------------ #
+
+print("-----Welcome----")
+"""Getting  ID and name from user"""
+IO.input_grab_id()
+IO.input_grab_name()
+
+"""Storing it in a list object"""
+print("Data has been added to a list!")
+Processor.add_to_list(lstCustomer)
+
+
+"""Storing the list object into a binary file"""
+print("Storing data...")
+Processor.save_data_to_file(file_name, lstCustomer)
+"""Reading the data from the file"""
+print("reading data...")
+print("The data read from file is...")
+Processor.read_data_from_file(file_name)
+input()
