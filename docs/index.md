@@ -1,7 +1,7 @@
 Elisabeth Chapman
 2/28/2021
 Foundations of Programming Python
-GitHub: https://github.com/echapman-2021/IntroToProg-Python-Mod07
+GitHub [https://github.com/echapman-2021/IntroToProg-Python-Mod07](url)
 Assignment 07
 ###Saving data to a Pickled file
 In this project, the process of writing data to a file was further explored and a new mechanism for writing and storing data was deployed. This method—called file pickling—was explored as a mechanism for storing information. Just as in the previous project, we again saved user inputted data into a separate file—only this time it was with the addition of a few key differences such as reduced file size which altogether gave the program a greater ability to serialize data. Another concept explored within this project was the concept of error handling—the idea that is better to build a program with built in fail points rather than one with no ability to fail. Because the user-failures are anticipated by the programmer, they can be more easily remedied even by an inexperienced user.
@@ -20,5 +20,5 @@ In conclusion, this data-saving script differed from the previous, insomuch as t
   in Command prompt
 References
 *	Dawson, Michael, Python Programming, Third Edition, Course Technology, a part of Congage Learning, 2010
-* Omkar Pathak. Understanding Python Pickling with example, geeksforgeeks.com, 13 Nov 2018 https://www.geeksforgeeks.org/understanding-python-pickling-example/. Accessed Feb 26 2021
-*	Davide Mastromatteo. The Python pickle Module: How to Persist Objects in Python, realpython.com, Apr 27, 2020,  https://realpython.com/python-pickle-module/. Accessed Feb 26 2021
+* Omkar Pathak. Understanding Python Pickling with example, geeksforgeeks.com, 13 Nov 2018 [https://www.geeksforgeeks.org/understanding-python-pickling-example/.](url) Accessed Feb 26 2021
+*	Davide Mastromatteo. The Python pickle Module: How to Persist Objects in Python, realpython.com, Apr 27, 2020,  [https://realpython.com/python-pickle-module/.](url) Accessed Feb 26 2021
