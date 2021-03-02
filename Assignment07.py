@@ -10,29 +10,29 @@ import pickle
 file_name ="C:\_PythonClass\Assignment07\AppData.dat"    #'AppData.dat'
 lstCustomer = []
 list_of_data = []
-import pickle
 # Processing -------------------------------------- #
 class Processor:
     """  Performs Processing tasks """
 
     @staticmethod
     def save_data_to_file(file_name, list_of_data):
+        """Writes data to a binary file"""
         file = open(file_name, "wb")
         b = pickle.dump(list_of_data,file)
         file.close()
 
     @staticmethod
     def read_data_from_file(file_name):
-        # TODO: into a new list object and display the contents
+        """Reads data from the binary file"""
         f  = open(file_name, "rb")
         freshly_pickled = pickle.load(f)
         print(freshly_pickled)
         f.close()
-    @staticmethod
 
+    @staticmethod
     def add_to_list(lstCustomer):
+        """Adds data to list of Customer data"""
         list_of_data.append(lstCustomer)
-        #list_of_data[lstCustomer] = user_id TRY THIS TOO
         return list_of_data
 #IO---------------------------------------
 class IO:
@@ -42,7 +42,7 @@ class IO:
         try:
             float_id = float(input("Enter your ID number: "))
         except:
-            print("That's not an ID number!")
+            print("That's not an ID number! ...Try again!")
         user_id = str(float_id)
         lstCustomer.append(user_id + ",")
         return user_id, lstCustomer
