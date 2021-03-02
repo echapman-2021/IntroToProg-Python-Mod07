@@ -1,6 +1,2 @@
 <Elisabeth Chapman>                                              
-<March, 1, 2021>
-<Foundations of Programming Python>
-<GitHub [https://github.com/echapman-2021/IntroToProg-Python-Mod07](url)>
-<Assignment 07>
-##Saving data to a Pickled file
+[Google Homepage](https://www.google.com "Google's Homepage")[GitHub Webpage Code CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
