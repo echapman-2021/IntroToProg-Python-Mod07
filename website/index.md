@@ -1,10 +1,10 @@
 
-<# Elisabeth Chapman>
-<# 3/2/2021>
-<# Foundations of Programming Python>
-<[](url)https://github.com/echapman-2021/IntroToProg-Python-Mod07>
-<# Assignment 07>
-<### Saving data to a Pickled file>
+# Elisabeth Chapman
+# 3/2/2021
+# Foundations of Programming Python
+# (url)https://github.com/echapman-2021/IntroToProg-Python-Mod07
+# Assignment 07>
+### Saving data to a Pickled file>
 In this project, the process of writing data to a file was further explored and a new mechanism for writing and storing data was deployed. 
 This method—called file pickling—was explored as a mechanism for storing information. Just as in the previous project, we again saved user inputted data into a separate file—only this time it was with the addition of a few key differences such as reduced file size which altogether gave the program a greater ability to serialize data. Another concept explored within this project was the concept of error handling—the idea that is better to build a program with built in fail points rather than one with no ability to fail. Because the user-failures are anticipated by the programmer, they can be more easily remedied even by an inexperienced user.
 
@@ -19,8 +19,9 @@ As seen above, the file is ‘pickled’— meaning that rather than saving the 
 # Try/Except
  
 Moreover, this project was also the first foray into the concept of error handling. As seen above, one of the simplest ways of handling errors is with a “try and except block in Python [..] used to catch and handle exceptions”(van de Klundert). Because the try statement is an attempt to run the entire code, it executes first and if no errors are found the code will run as usual. If the specified error in the except clause is present, the except clause will then initialize with the programmed response. These two blocks are helpful for users because they can be used to signify where the program is miscalculating and lead the user to a pre-written hint on how to fix the bug. In this script,  a simple try statement requests only that the user enters a number of some type, and if the user enters something else, they will receive a statement clarifying that the program needed a number to successfully execute the rest of the script. 
+
 #A note on Websites: 
-In this project it was suggested that we 	research online for websites to better clarify on the concepts of error handling and file pickling. The websites primarily used in this assignment were geeksforgeeks.com which proved to be a decent resource for a brief easily understood summary on file pickling and realpython.com for a much more in-depth explanation on both file pickling and error handling.
+In this project it was suggested that we research online for websites to better clarify on the concepts of error handling and file pickling. The websites primarily used in this assignment were geeksforgeeks.com which proved to be a decent resource for a brief easily understood summaries,  and realpython.com for a much more in-depth explanation on both file pickling and error handling. Medium.com, with some tentative caution can also be a decent resource written by developers within the field, however the qualifications to write for medium.com(or stackoverflow.com) are non-existent.
 
 
 # Conclusion
