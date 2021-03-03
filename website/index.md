@@ -1,4 +1,3 @@
-
 # Elisabeth Chapman
 # 3/2/2021
 # Foundations of Programming Python
