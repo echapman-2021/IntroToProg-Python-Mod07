@@ -1,7 +1,7 @@
 # Elisabeth Chapman
 # 3/2/2021
 # Foundations of Programming Python
-# GitHub: https://github.com/echapman-2021/IntroToProg-Python-Mod07
+# [](url)https://github.com/echapman-2021/IntroToProg-Python-Mod07
 # Assignment 07
 ### Saving data to a Pickled file
 In this project, the process of writing data to a file was further explored and a new mechanism for writing and storing data was deployed. This method—called file pickling—was explored as a mechanism for storing information. Just as in the previous project, we again saved user inputted data into a separate file—only this time it was with the addition of a few key differences such as reduced file size which altogether gave the program a greater ability to serialize data. Another concept explored within this project was the concept of error handling—the idea that is better to build a program with built in fail points rather than one with no ability to fail. Because the user-failures are anticipated by the programmer, they can be more easily remedied even by an inexperienced user.
@@ -18,10 +18,10 @@ In this project it was suggested that we research online for websites to better 
 In conclusion, this data-saving script differed from the previous, insomuch as that although the data is saved and retrieved with no visible changes on the user end, the file on the computer has been both scrambled and unscrambled behind the scenes in the form of a binary file—rather than .txt file. However, it must be said that although the file is scrambled, it is not completely secure. The main value of pickling data is in the serialization of the data, whereas a .txt file can store simple data such as strings but cannot handle lists and dictionaries—a binary file can store a wider variety of data types. 
   
 ## References
-•	Dawson, Michael, Python Programming, Third Edition, Course Technology, a part of Congage Learning, 2010
-•	Omkar Pathak. Understanding Python Pickling with example, geeksforgeeks.com, 13 Nov 2018 https://www.geeksforgeeks.org/understanding-python-pickling-example/. Accessed Feb 26, 2021
-•	Davide Mastromatteo. The Python pickle Module: How to Persist Objects in Python, realpython.com, Apr 27, 2020,  https://realpython.com/python-pickle-module/. Accessed Feb 26, 2021
-•	Said van de Klundert. Python Exceptions: An Introduction , realpython.com, No date found, https://realpython.com/python-exceptions/. Accessed Mar 1, 2021
+-	Dawson, Michael, Python Programming, Third Edition, Course Technology, a part of Congage Learning, 2010
+-	Omkar Pathak. Understanding Python Pickling with example, geeksforgeeks.com, 13 Nov 2018 https://www.geeksforgeeks.org/understanding-python-pickling-example/. Accessed Feb 26, 2021
+- Davide Mastromatteo. The Python pickle Module: How to Persist Objects in Python, realpython.com, Apr 27, 2020,  https://realpython.com/python-pickle-module/. Accessed Feb 26, 2021
+-	Said van de Klundert. Python Exceptions: An Introduction , realpython.com, No date found, https://realpython.com/python-exceptions/. Accessed Mar 1, 2021
 
 
 
