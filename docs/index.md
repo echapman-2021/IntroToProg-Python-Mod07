@@ -3,7 +3,7 @@
 # Foundations of Programming Python
 # [](url)https://github.com/echapman-2021/IntroToProg-Python-Mod07
 # Assignment 07
-### Saving data to a Pickled file
+## Saving data to a Pickled file
 In this project, the process of writing data to a file was further explored and a new mechanism for writing and storing data was deployed. This method—called file pickling—was explored as a mechanism for storing information. Just as in the previous project, we again saved user inputted data into a separate file—only this time it was with the addition of a few key differences such as reduced file size which altogether gave the program a greater ability to serialize data. Another concept explored within this project was the concept of error handling—the idea that is better to build a program with built in fail points rather than one with no ability to fail. Because the user-failures are anticipated by the programmer, they can be more easily remedied even by an inexperienced user.
 # Pickling
  
