@@ -12,16 +12,20 @@ As seen above, the file is ‘pickled’— meaning that rather than saving the 
 
 # Try/Except
  ![image](https://user-images.githubusercontent.com/78879611/110529569-45f16b80-80ce-11eb-9c5f-7432fa1bcd7f.png)
-##  Figure 2: Try/Except statement within the code
+###  Figure 2: Try/Except statement within the code
 Moreover, this project was also the first foray into the concept of error handling. As seen above, one of the simplest ways of handling errors is with a “try and except block in Python [..] used to catch and handle exceptions”(van de Klundert). Because the try statement is an attempt to run the entire code, it executes first and if no errors are found the code will run as usual. If the specified error in the except clause is present, the except clause will then initialize with the programmed response. These two blocks are helpful for users because they can be used to signify where the program is miscalculating and lead the user to a pre-written hint on how to fix the bug. In this script,  a simple try statement requests only that the user enters a number of some type, and if the user enters something else, they will receive a statement clarifying that the program needed a number to successfully execute the rest of the script. 
 # A note on Websites: 
 In this project it was suggested that we research online for websites to better clarify on the concepts of error handling and file pickling. The websites primarily used in this assignment were geeksforgeeks.com which proved to be a decent resource for a brief easily understood summaries,  and realpython.com for a much more in-depth explanation on both file pickling and error handling. Medium.com, with some tentative caution can also be a decent resource written by developers within the field, however the qualifications to write for medium.com(or stackoverflow.com) are non-existent.
 # Conclusion
 ![image](https://user-images.githubusercontent.com/78879611/110529662-61f50d00-80ce-11eb-9ea5-4c01884e0b65.png)
-## Figure 3: The script running in PyCharm
+### Figure 3: The script running in PyCharm
 In conclusion, this data-saving script differed from the previous, insomuch as that although the data is saved and retrieved with no visible changes on the user end, the file on the computer has been both scrambled and unscrambled behind the scenes in the form of a binary file—rather than .txt file. However, it must be said that although the file is scrambled, it is not completely secure. The main value of pickling data is in the serialization of the data, whereas a .txt file can store simple data such as strings but cannot handle lists and dictionaries—a binary file can store a wider variety of data types. 
+
+
  ![image](https://user-images.githubusercontent.com/78879611/110529768-7fc27200-80ce-11eb-997f-f53b93fa2ea3.png)
-## Figure 4: The script running in Command Prompt
+### Figure 4: The script running in Command Prompt
+
+
 ## References
 -	Dawson, Michael, Python Programming, Third Edition, Course Technology, a part of Congage Learning, 2010
 -	Omkar Pathak. Understanding Python Pickling with example, geeksforgeeks.com, 13 Nov 2018 https://www.geeksforgeeks.org/understanding-python-pickling-example/. Accessed Feb 26, 2021
